@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+<title id="title">Crowbone Needles</title>
+<desc id="desc">Dark fantasy apothecary bottle artwork for Crowbone Needles.</desc>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+    <stop offset="0" stop-color="#251328"/>
+    <stop offset="0.45" stop-color="#101014"/>
+    <stop offset="1" stop-color="#050506"/>
+  </radialGradient>
+  <linearGradient id="bottle" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#0a0f12"/>
+    <stop offset="0.18" stop-color="#29292e"/>
+    <stop offset="0.56" stop-color="#09090b"/>
+    <stop offset="1" stop-color="#29292e"/>
+  </linearGradient>
+  <linearGradient id="label" x1="0" x2="1">
+    <stop offset="0" stop-color="#dbc093"/>
+    <stop offset="0.52" stop-color="#f0d9a4"/>
+    <stop offset="1" stop-color="#8f6f46"/>
+  </linearGradient>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <filter id="rough">
+    <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+  </filter>
+</defs>
+<rect width="900" height="650" fill="url(#bg)"/>
+<g opacity="0.26">
+  <path d="M0 510 C220 470 410 542 640 490 C750 465 830 470 900 488 L900 650 L0 650 Z" fill="#2b1810"/>
+  <path d="M0 92 H900 M0 132 H900 M0 568 H900" stroke="#543d2b" stroke-width="5" opacity="0.4"/>
+</g>
+<g filter="url(#soft)">
+  <ellipse cx="445" cy="360" rx="230" ry="220" fill="#8c8c91" opacity="0.22"/>
+  <ellipse cx="675" cy="195" rx="108" ry="68" fill="#d28a44" opacity="0.13"/>
+</g>
+<g opacity="0.45">
+  <circle cx="160" cy="140" r="12" fill="#d49d54"/>
+  <circle cx="736" cy="146" r="10" fill="#d49d54"/>
+  <path d="M140 370 q78 -28 154 9 t157 1 t162 -20 t145 26" fill="none" stroke="#4f3a2a" stroke-width="8"/>
+</g>
+<g transform="translate(330 88)">
+  <ellipse cx="120" cy="488" rx="180" ry="34" fill="#000" opacity="0.55"/>
+  <path d="M78 16 h84 v76 q0 18 20 42 c52 62 82 143 82 240 c0 102 -55 168 -144 168 c-90 0 -145 -66 -145 -168 c0 -98 31 -179 83 -240 q20 -24 20 -42 Z" fill="url(#bottle)" stroke="#d0a263" stroke-width="8"/>
+  <path d="M91 20 h58 v106 h-58z" fill="#071111" stroke="#be925f" stroke-width="6"/>
+  <path d="M72 10 h96 q17 0 17 17 v9 q0 16 -17 16 h-96 q-17 0 -17 -16 v-9 q0 -17 17 -17Z" fill="#111" stroke="#b08455" stroke-width="6"/>
+  <path d="M11 273 c39 34 189 32 221 3 v142 c-18 60 -200 64 -221 0Z" fill="#29292e" opacity="0.72"/>
+  <path d="M32 122 c31 24 153 24 181 0" fill="none" stroke="#fff" stroke-opacity="0.22" stroke-width="8"/>
+  <path d="M47 270 h146 q18 0 18 18 v99 q0 18 -18 18 h-146 q-18 0 -18 -18 v-99 q0 -18 18 -18Z" fill="url(#label)" stroke="#33231a" stroke-width="6" filter="url(#rough)"/>
+  <text x="120" y="318" text-anchor="middle" fill="#21140e" font-family="Georgia, serif" font-size="26" font-weight="700" letter-spacing="2">CROWBONE</text>
+  <text x="120" y="350" text-anchor="middle" fill="#4b2c1d" font-family="Georgia, serif" font-size="17" letter-spacing="1">BLACK LANTERN</text>
+  <path d="M65 374 h110" stroke="#5a3621" stroke-width="3"/>
+  <circle cx="120" cy="386" r="18" fill="#23140e" opacity="0.7"/>
+  <path d="M120 369 v34 M103 386 h34" stroke="#d4b079" stroke-width="4"/>
+  <path d="M68 155 c-44 94 -48 225 -5 310" fill="none" stroke="#fff" stroke-opacity="0.16" stroke-width="12" stroke-linecap="round"/>
+  <path d="M178 170 c33 81 41 202 15 292" fill="none" stroke="#000" stroke-opacity="0.34" stroke-width="15" stroke-linecap="round"/>
+</g>
+<g opacity="0.82">
+  <path d="M612 245 l140 274 M656 224 l54 290 M723 240 l-96 270" stroke="#d3c9b8" stroke-width="11" stroke-linecap="round"/><path d="M623 252 l28 -48 l13 54" fill="#161718"/>
+</g>
+<g opacity="0.25" stroke="#d6ac6c" stroke-width="2" fill="none">
+  <path d="M74 90 h84 m-42 -42 v84"/>
+  <path d="M742 475 h92 m-46 -46 v92"/>
+  <circle cx="116" cy="90" r="38"/>
+  <circle cx="788" cy="475" r="40"/>
+</g>
+</svg>
